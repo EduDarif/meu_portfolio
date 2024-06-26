@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico.ico" type="image/x-icon">
+    <title>Fale Comigo</title>
+</head>
+
+<body>
+
+    <section class="formulario">
+        <div class="interface">
+            <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+            <form id="meuFormulario" action="">
+                <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone (DDD) e número (99999-9999):"
+                    pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem:" required></textarea>
+                <div class="edu-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+
+        </div><!--interface-->
+    </section><!--formulario-->
+
+    <script src="functions.js"></script>
+</body>
+
+</html>
