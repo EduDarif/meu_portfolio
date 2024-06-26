@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #272626;
     height: 100vh;
 }
 
@@ -24,7 +24,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: greenyellow;
+    background-color: rgb(22, 165, 165);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,12 +38,12 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: greenyellow;
+    color: rgb(22, 165, 165);
 }
 
 button:hover,
 form .edu-enviar input:hover {
-    box-shadow: 0px 0px 8px rgba(130, 255, 47, 0.822);
+    box-shadow: 0px 0px 8px rgb(22, 165, 165);
     transform: scale(1.07);
 }
 
@@ -97,7 +97,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: greenyellow;
+    color: rgb(22, 165, 165);
 }
 
 .topo-do-site .txt-topo-site p {
@@ -148,7 +148,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
     font-size: 70px;
-    color: greenyellow;
+    color: rgb(22, 165, 165);
 }
 
 .especialidades .especialidades-box h3 {
@@ -177,7 +177,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: greenyellow;
+    color: rgb(22, 165, 165);
     display: block;
 }
 
@@ -191,7 +191,7 @@ section.sobre .flex {
     height: 40px;
     border-radius: 50%;
     border: none;
-    background-color: greenyellow;
+    background-color: rgb(22, 165, 165);
     font-size: 20px;
     cursor: pointer;
     margin: 0 5px;
@@ -218,7 +218,7 @@ section.portfolio .flex {
 .img-port {
     width: 360px;
     height: 460px;
-    background-color: greenyellow;
+    background-color: rgb(22, 165, 165);
     background-size: cover;
     background-position: 100% 0%;
     border-radius: 40px;
@@ -293,7 +293,7 @@ form .edu-enviar {
 
 form .edu-enviar input {
     width: 120px;
-    background-color: rgb(173, 255, 47);
+    background-color: rgb(22, 165, 165);
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -316,11 +316,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid greenyellow;
+    border-top: 2px solid rgb(22, 165, 165);
 }
 
 footer .line-footer p i {
-    color: greenyellow;
+    color: rgb(22, 165, 165);
     font-size: 22px;
 }
 
