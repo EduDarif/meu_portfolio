@@ -59,11 +59,41 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem('telefone', telefone);
             localStorage.setItem('mensagem', mensagem);
 
+            let dados = JSON.parse(localStorage.getItem('dados')) || [];
+
+            dados.push({nome, email, telefone, mensagem});
+
+            localStorage.setItem('dados', JSON.stringify(dados));
+
             alert('Dados salvos com sucesso!');
 
             meuFormulario.reset();
+
+            reloadDados();
         });
     } else {
         console.error('Elemento "meuFormulario" não encontrado.');
     }
+
+    fetch('https://api.github.com/users/EduDarif/repos')
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(repo => {
+            console.log(repo.name);
+        });
+    })
+    .catch(error => console.error('Erro', error));
+
+    function reloadDados(){
+        const dados = JSON.parse(localStorage.getItem('dados')) || [];
+        const lista = document.getElementById('listaDados');
+        lista.innerHTML ='';
+
+        dados.forEach(dado => {
+            const item = document.createElement('li');
+            item.textContent = `Nome: ${dado.nome}, Email: ${dado.email}, Telefone: ${dado.telefone}, Mensagem: ${dado.mensagem}`;
+            lista.appendChild(item);
+        });
+    }
+
 });

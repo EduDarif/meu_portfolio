@@ -66,7 +66,7 @@ header a {
 }
 
 header a:hover {
-    color: whitesmoke;
+    color: rgb(22, 165, 165);
     transform: scale(1.07);
 }
 
@@ -109,7 +109,7 @@ section.topo-do-site .flex {
 .topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    width: 285px;
+    width: 350px;
     border-radius: 20%;
     border: none;
 }
@@ -143,7 +143,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.39);
+    box-shadow: 0 0 10px rgb(22, 165, 165);
 }
 
 .especialidades .especialidades-box i {
