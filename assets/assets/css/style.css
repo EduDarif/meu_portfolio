@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(85, 117, 117);
+    background-color: rgb(84, 121, 121);
     height: 100vh;
 }
 
@@ -31,18 +31,18 @@ body {
 
 
 h2.titulo {
-    color: khaki;
+    color: lavender;
     font-size: 35px;
     text-align: center;
 }
 
 h2.titulo span {
-    color: khaki;
+    color: lavender;
 }
 
 button:hover,
 form .edu-enviar input:hover {
-    box-shadow: 0px 0px 8px khaki;
+    box-shadow: 0px 0px 8px lavender;
     transform: scale(1.07);
 }
 
@@ -57,14 +57,14 @@ header>.interface {
 }
 
 header a {
-    color: palegoldenrod;
+    color: lavender;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header a:hover {
-    color: khaki;
+    color: lavender;
     transform: scale(1.07);
 }
 
@@ -94,11 +94,11 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: khaki;
+    color: lavender;
 }
 
 .topo-do-site .txt-topo-site p {
-    color: palegoldenrod;
+    color: lavender;
     margin: 40px 0;
     font-size: 18px;
 }
@@ -131,7 +131,7 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box {
-    color: papayawhip;
+    color: lavender;
     padding: 40px;
     border-radius: 20px;
     margin-top: 45px;
@@ -140,7 +140,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
     font-size: 90px;
-    color: khaki;
+    color: lavender;
 }
 
 .especialidades .especialidades-box h3 {
@@ -158,7 +158,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre {
-    color: palegoldenrod;
+    color: lavender;
 }
 
 .sobre .txt-sobre h2 {
@@ -168,7 +168,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: khaki;
+    color: lavender;
     display: flex;
 }
 
@@ -182,7 +182,7 @@ section.sobre .flex {
     height: 40px;
     border-radius: 50%;
     border: none;
-    background-color: palegoldenrod;
+    background-color: lavender;
     font-size: 20px;
     cursor: pointer;
     margin: 0 5px;
@@ -207,7 +207,7 @@ section.portfolio .flex {
 .img-port {
     width: 360px;
     height: 460px;
-    background-color: khaki;
+    background-color: lavender;
     background-size: cover;
     background-position: 100% 0%;
     border-radius: 40px;
@@ -280,7 +280,7 @@ form .edu-enviar {
 
 form .edu-enviar input {
     width: 120px;
-    background-color: khaki;
+    background-color: lavender;
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -304,7 +304,7 @@ footer .line-footer {
 }
 
 footer .line-footer p i {
-    color: khaki;
+    color: lavender;
     font-size: 22px;
 }
 
