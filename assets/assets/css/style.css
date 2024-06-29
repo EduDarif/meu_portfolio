@@ -1,4 +1,4 @@
-/* ESTILO GERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #272626;
+    background-color: rgb(85, 117, 117);
     height: 100vh;
 }
 
@@ -21,33 +21,31 @@ body {
 }
 
 .edu-contatos button {
-    padding: 10px 40px;
-    font-size: 18px;
+    padding: 10px 20px;
+    font-size: 20px;
     font-weight: 600;
-    background-color: rgb(22, 165, 165);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
+    background-color: lavender;
+    border: 2px solid transparent;
+    border-radius: 50px; /* Deixa o botão redondo */
 }
 
+
 h2.titulo {
-    color: white;
+    color: khaki;
     font-size: 35px;
     text-align: center;
 }
 
 h2.titulo span {
-    color: rgb(22, 165, 165);
+    color: khaki;
 }
 
 button:hover,
 form .edu-enviar input:hover {
-    box-shadow: 0px 0px 8px rgb(22, 165, 165);
+    box-shadow: 0px 0px 8px khaki;
     transform: scale(1.07);
 }
 
-/* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
 }
@@ -59,14 +57,14 @@ header>.interface {
 }
 
 header a {
-    color: #8f8c8c;
+    color: palegoldenrod;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header a:hover {
-    color: rgb(22, 165, 165);
+    color: khaki;
     transform: scale(1.07);
 }
 
@@ -79,7 +77,6 @@ header nav ul li {
     padding: 0 40px;
 }
 
-/* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -97,21 +94,22 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: rgb(22, 165, 165);
+    color: khaki;
 }
 
 .topo-do-site .txt-topo-site p {
-    color: white;
+    color: palegoldenrod;
     margin: 40px 0;
     font-size: 18px;
 }
 
 .topo-do-site .img-topo-site img {
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+    /* position: relative; */
+    position: static;
     width: 350px;
     border-radius: 20%;
     border: none;
+    text-align: center;
 }
 
 @keyframes flutuar {
@@ -124,7 +122,6 @@ section.topo-do-site .flex {
     }
 }
 
-/* ESTILOS DAS ESPECIALIDADES */
 section.especialidades {
     padding: 40px 4%;
 }
@@ -134,29 +131,23 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box {
-    color: white;
+    color: papayawhip;
     padding: 40px;
     border-radius: 20px;
     margin-top: 45px;
     transition: .2s;
 }
 
-.especialidades .especialidades-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgb(22, 165, 165);
-}
-
 .especialidades .especialidades-box i {
-    font-size: 70px;
-    color: rgb(22, 165, 165);
+    font-size: 90px;
+    color: khaki;
 }
 
 .especialidades .especialidades-box h3 {
-    font-size: 28px;
+    font-size: 35px;
     margin: 15px 0;
 }
 
-/* ESTILO DO SOBRE */
 section.sobre {
     padding: 80px 4%;
 }
@@ -167,7 +158,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre {
-    color: white;
+    color: palegoldenrod;
 }
 
 .sobre .txt-sobre h2 {
@@ -177,8 +168,8 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: rgb(22, 165, 165);
-    display: block;
+    color: khaki;
+    display: flex;
 }
 
 .sobre .txt-sobre p {
@@ -191,7 +182,7 @@ section.sobre .flex {
     height: 40px;
     border-radius: 50%;
     border: none;
-    background-color: rgb(22, 165, 165);
+    background-color: palegoldenrod;
     font-size: 20px;
     cursor: pointer;
     margin: 0 5px;
@@ -204,10 +195,8 @@ section.sobre .flex {
     width: 310px;
 }
 
-/* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.096);
 }
 
 section.portfolio .flex {
@@ -218,7 +207,7 @@ section.portfolio .flex {
 .img-port {
     width: 360px;
     height: 460px;
-    background-color: rgb(22, 165, 165);
+    background-color: khaki;
     background-size: cover;
     background-position: 100% 0%;
     border-radius: 40px;
@@ -228,7 +217,7 @@ section.portfolio .flex {
 }
 
 .img-port:hover {
-    background-position: 100% 100%
+    background-position: 100% 100%;
 }
 
 .overlay {
@@ -243,8 +232,8 @@ section.portfolio .flex {
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    font-weight: 600;
-    color: white;
+    font-weight: 400;
+    color: azure;
     opacity: 0;
     transition: .5s;
 }
@@ -252,8 +241,6 @@ section.portfolio .flex {
 .overlay:hover {
     opacity: 1;
 }
-
-/* ESTILO DO FORMULÁRIO DE CONTATO */
 
 section.formulario {
     padding: 80px 4%;
@@ -272,7 +259,7 @@ form {
 form input,
 form textarea {
     width: 100%;
-    background-color: rgb(59, 59, 59);
+    background-color: azure;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -293,18 +280,15 @@ form .edu-enviar {
 
 form .edu-enviar input {
     width: 120px;
-    background-color: rgb(22, 165, 165);
+    background-color: khaki;
     color: black;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
 }
 
-/* ESTILO DO RODAPÉ */
-
 footer {
     padding: 40px 4%;
-    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.048);
 }
 
 footer .flex {
@@ -316,11 +300,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid rgb(22, 165, 165);
+    border-top: 2px solid ;
 }
 
 footer .line-footer p i {
-    color: rgb(22, 165, 165);
+    color: khaki;
     font-size: 22px;
 }
 
@@ -330,7 +314,6 @@ footer .line-footer p a {
 
 @media screen and (max-width: 1020px) {
 
-    /* CLASSES GERAIS */
     .flex {
         flex-direction: column;
     }
@@ -344,13 +327,11 @@ footer .line-footer p a {
         flex-direction: column-reverse;
     }
 
-    /* CABEÇALHO */
     .menu_desktop,
     .edu-contatos {
         display: none;
     }
 
-    /* TOPO DO SITE */
     section.topo-do-site .flex {
         gap: 55px;
     }
@@ -367,12 +348,10 @@ footer .line-footer p a {
         width: 100%;
     }
 
-    /* ESTILOS DAS ESPECIALIDADES */
     section.especialidades {
         padding: 40px 8%;
     }
 
-    /* SOBRE */
     section.sobre {
         padding: 80px 8%;
     }
@@ -391,7 +370,6 @@ footer .line-footer p a {
         width: 100%;
     }
 
-    /* PORTFÓLIO */
     section.portfolio {
         padding: 80px 8%;
     }
@@ -413,4 +391,5 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
+  
 }
